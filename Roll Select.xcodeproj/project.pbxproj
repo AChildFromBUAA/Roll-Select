@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5D70401B6F5CBA00FB1DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D703F1B6F5CBA00FB1DF3 /* AppDelegate.swift */; };
+		6D5D70421B6F5CBA00FB1DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D70411B6F5CBA00FB1DF3 /* ViewController.swift */; };
+		6D5D70441B6F5CBA00FB1DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5D70431B6F5CBA00FB1DF3 /* Assets.xcassets */; };
+		6D5D70471B6F5CBA00FB1DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5D70451B6F5CBA00FB1DF3 /* Main.storyboard */; };
+		6D5D70521B6F5CBA00FB1DF3 /* Roll_SelectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D70511B6F5CBA00FB1DF3 /* Roll_SelectTests.swift */; };
+		6D5D705D1B6F5CBA00FB1DF3 /* Roll_SelectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D705C1B6F5CBA00FB1DF3 /* Roll_SelectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D5D704E1B6F5CBA00FB1DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D5D70341B6F5CB900FB1DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D5D703B1B6F5CB900FB1DF3;
+			remoteInfo = "Roll Select";
+		};
+		6D5D70591B6F5CBA00FB1DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D5D70341B6F5CB900FB1DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D5D703B1B6F5CB900FB1DF3;
+			remoteInfo = "Roll Select";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D5D703C1B6F5CB900FB1DF3 /* Roll Select.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roll Select.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5D703F1B6F5CBA00FB1DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D5D70411B6F5CBA00FB1DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D5D70431B6F5CBA00FB1DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5D70461B6F5CBA00FB1DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D5D70481B6F5CBA00FB1DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5D704D1B6F5CBA00FB1DF3 /* Roll SelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll SelectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5D70511B6F5CBA00FB1DF3 /* Roll_SelectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_SelectTests.swift; sourceTree = "<group>"; };
+		6D5D70531B6F5CBA00FB1DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5D70581B6F5CBA00FB1DF3 /* Roll SelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roll SelectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5D705C1B6F5CBA00FB1DF3 /* Roll_SelectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll_SelectUITests.swift; sourceTree = "<group>"; };
+		6D5D705E1B6F5CBA00FB1DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5D70391B6F5CB900FB1DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D704A1B6F5CBA00FB1DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D70551B6F5CBA00FB1DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D5D70331B6F5CB900FB1DF3 = {
+			isa = PBXGroup;
+			children = (
+				6D5D703E1B6F5CB900FB1DF3 /* Roll Select */,
+				6D5D70501B6F5CBA00FB1DF3 /* Roll SelectTests */,
+				6D5D705B1B6F5CBA00FB1DF3 /* Roll SelectUITests */,
+				6D5D703D1B6F5CB900FB1DF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5D703D1B6F5CB900FB1DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D703C1B6F5CB900FB1DF3 /* Roll Select.app */,
+				6D5D704D1B6F5CBA00FB1DF3 /* Roll SelectTests.xctest */,
+				6D5D70581B6F5CBA00FB1DF3 /* Roll SelectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5D703E1B6F5CB900FB1DF3 /* Roll Select */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D70411B6F5CBA00FB1DF3 /* ViewController.swift */,
+				6D5D70451B6F5CBA00FB1DF3 /* Main.storyboard */,
+				6D5D706A1B6F5CC200FB1DF3 /* support files */,
+			);
+			path = "Roll Select";
+			sourceTree = "<group>";
+		};
+		6D5D70501B6F5CBA00FB1DF3 /* Roll SelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D70511B6F5CBA00FB1DF3 /* Roll_SelectTests.swift */,
+				6D5D70531B6F5CBA00FB1DF3 /* Info.plist */,
+			);
+			path = "Roll SelectTests";
+			sourceTree = "<group>";
+		};
+		6D5D705B1B6F5CBA00FB1DF3 /* Roll SelectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D705C1B6F5CBA00FB1DF3 /* Roll_SelectUITests.swift */,
+				6D5D705E1B6F5CBA00FB1DF3 /* Info.plist */,
+			);
+			path = "Roll SelectUITests";
+			sourceTree = "<group>";
+		};
+		6D5D706A1B6F5CC200FB1DF3 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D703F1B6F5CBA00FB1DF3 /* AppDelegate.swift */,
+				6D5D70431B6F5CBA00FB1DF3 /* Assets.xcassets */,
+				6D5D70481B6F5CBA00FB1DF3 /* Info.plist */,
+			);
+			name = "support files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D5D703B1B6F5CB900FB1DF3 /* Roll Select */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5D70611B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll Select" */;
+			buildPhases = (
+				6D5D70381B6F5CB900FB1DF3 /* Sources */,
+				6D5D70391B6F5CB900FB1DF3 /* Frameworks */,
+				6D5D703A1B6F5CB900FB1DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roll Select";
+			productName = "Roll Select";
+			productReference = 6D5D703C1B6F5CB900FB1DF3 /* Roll Select.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D5D704C1B6F5CBA00FB1DF3 /* Roll SelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5D70641B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll SelectTests" */;
+			buildPhases = (
+				6D5D70491B6F5CBA00FB1DF3 /* Sources */,
+				6D5D704A1B6F5CBA00FB1DF3 /* Frameworks */,
+				6D5D704B1B6F5CBA00FB1DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D5D704F1B6F5CBA00FB1DF3 /* PBXTargetDependency */,
+			);
+			name = "Roll SelectTests";
+			productName = "Roll SelectTests";
+			productReference = 6D5D704D1B6F5CBA00FB1DF3 /* Roll SelectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D5D70571B6F5CBA00FB1DF3 /* Roll SelectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5D70671B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll SelectUITests" */;
+			buildPhases = (
+				6D5D70541B6F5CBA00FB1DF3 /* Sources */,
+				6D5D70551B6F5CBA00FB1DF3 /* Frameworks */,
+				6D5D70561B6F5CBA00FB1DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D5D705A1B6F5CBA00FB1DF3 /* PBXTargetDependency */,
+			);
+			name = "Roll SelectUITests";
+			productName = "Roll SelectUITests";
+			productReference = 6D5D70581B6F5CBA00FB1DF3 /* Roll SelectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D5D70341B6F5CB900FB1DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BUAA.Software;
+				TargetAttributes = {
+					6D5D703B1B6F5CB900FB1DF3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6D5D704C1B6F5CBA00FB1DF3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6D5D703B1B6F5CB900FB1DF3;
+					};
+					6D5D70571B6F5CBA00FB1DF3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6D5D703B1B6F5CB900FB1DF3;
+					};
+				};
+			};
+			buildConfigurationList = 6D5D70371B6F5CB900FB1DF3 /* Build configuration list for PBXProject "Roll Select" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D5D70331B6F5CB900FB1DF3;
+			productRefGroup = 6D5D703D1B6F5CB900FB1DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5D703B1B6F5CB900FB1DF3 /* Roll Select */,
+				6D5D704C1B6F5CBA00FB1DF3 /* Roll SelectTests */,
+				6D5D70571B6F5CBA00FB1DF3 /* Roll SelectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D5D703A1B6F5CB900FB1DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5D70441B6F5CBA00FB1DF3 /* Assets.xcassets in Resources */,
+				6D5D70471B6F5CBA00FB1DF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D704B1B6F5CBA00FB1DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D70561B6F5CBA00FB1DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D5D70381B6F5CB900FB1DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5D70421B6F5CBA00FB1DF3 /* ViewController.swift in Sources */,
+				6D5D70401B6F5CBA00FB1DF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D70491B6F5CBA00FB1DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5D70521B6F5CBA00FB1DF3 /* Roll_SelectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5D70541B6F5CBA00FB1DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5D705D1B6F5CBA00FB1DF3 /* Roll_SelectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D5D704F1B6F5CBA00FB1DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D5D703B1B6F5CB900FB1DF3 /* Roll Select */;
+			targetProxy = 6D5D704E1B6F5CBA00FB1DF3 /* PBXContainerItemProxy */;
+		};
+		6D5D705A1B6F5CBA00FB1DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D5D703B1B6F5CB900FB1DF3 /* Roll Select */;
+			targetProxy = 6D5D70591B6F5CBA00FB1DF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D5D70451B6F5CBA00FB1DF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5D70461B6F5CBA00FB1DF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D5D705F1B6F5CBA00FB1DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D5D70601B6F5CBA00FB1DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D5D70621B6F5CBA00FB1DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll Select/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-Select";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D5D70631B6F5CBA00FB1DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll Select/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-Select";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D5D70651B6F5CBA00FB1DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll SelectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-SelectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Select.app/Contents/MacOS/Roll Select";
+			};
+			name = Debug;
+		};
+		6D5D70661B6F5CBA00FB1DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll SelectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-SelectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll Select.app/Contents/MacOS/Roll Select";
+			};
+			name = Release;
+		};
+		6D5D70681B6F5CBA00FB1DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll SelectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-SelectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Roll Select";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D5D70691B6F5CBA00FB1DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roll SelectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.Roll-SelectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Roll Select";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D5D70371B6F5CB900FB1DF3 /* Build configuration list for PBXProject "Roll Select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D705F1B6F5CBA00FB1DF3 /* Debug */,
+				6D5D70601B6F5CBA00FB1DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5D70611B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll Select" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D70621B6F5CBA00FB1DF3 /* Debug */,
+				6D5D70631B6F5CBA00FB1DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D5D70641B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll SelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D70651B6F5CBA00FB1DF3 /* Debug */,
+				6D5D70661B6F5CBA00FB1DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D5D70671B6F5CBA00FB1DF3 /* Build configuration list for PBXNativeTarget "Roll SelectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D70681B6F5CBA00FB1DF3 /* Debug */,
+				6D5D70691B6F5CBA00FB1DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D5D70341B6F5CB900FB1DF3 /* Project object */;
+}

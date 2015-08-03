@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Roll Select.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6D5D703B1B6F5CB900FB1DF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D5D704C1B6F5CBA00FB1DF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D5D70571B6F5CBA00FB1DF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
