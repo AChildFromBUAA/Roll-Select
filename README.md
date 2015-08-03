@@ -19,6 +19,6 @@ the first lable. Then click "开始随机".
 
 
 ======
-AChildFromBUAA
-2015.8.3
+AChildFromBUAA <br>
+2015.8.3 <br>
 LOL
