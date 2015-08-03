@@ -3,7 +3,7 @@ This is my first mini Mac OS app
 
 WOW
 ===
-This is my 'first' Mac OS app. I like it!
+This is my `first` Mac OS app. I like it!
 
 #let's talk about it
 ## background
